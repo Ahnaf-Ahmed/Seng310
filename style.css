@@ -59,13 +59,40 @@ h2 {
     }
 }
 
-.alert-warning {
-    color: #504011;
-    background-color: #f7db82;
-}
-
 .display-6 {
     padding-top: 15px;
+}
+
+.nav-tabs .dropdown-menu,
+.nav-pills .dropdown-menu,
+.navbar .dropdown-menu {
+  margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: #2a2e33;
+}
+
+.dropdown .dropdown-menu {
+    background-color: #2a2e33;
+}
+
+.dropdown-content a {
+    color: rgb(184, 187, 190) !important;
+}
+
+.dropdown-menu > a:hover {
+    color: white !important;
+}
+
+.dropdown-content a:hover {
+    background-color: transparent !important;
+    color: white !important;
 }
 
 a.docs {
